@@ -15,6 +15,13 @@ app.use("/orders", orderRoutes)
 
 setupSwagger(app);
 
+app.get("/", (req, res) => {
+    res.send(`
+        <h1>Welcome to the Matador API</h1>
+        <p>🔗 Visit <a href="/api-docs">/api-docs</a> to explore the API documentation.</p>
+    `);
+});
+
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
     console.log(`Swagger docs at http://localhost:${PORT}/api-docs`);
