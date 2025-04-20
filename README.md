@@ -19,7 +19,7 @@ Aplikasi ini adalah contoh implementasi CRUD menggunakan:
 
 ### 1. Clone Repositori
 ```bash
-git clone https://github.com/username/matador-test.git
+git clone https://github.com/RizkyGabS/matador-test.git
 cd matador-test
 ```
 
